@@ -9,6 +9,7 @@ personalCreation:
     - fivenuckle2:
         Name: fivenuckle2
         Acronym: fntwo
+        isClub: false
         Id: 151445
 
 clubEvents:
@@ -61,7 +62,7 @@ clubEvents:
         Name: Club of Culture
         Acronym: COC
         Id: 77431
-        
+
     - SoundOfSoul:
         Name: '- Sound of Soul -'
         Acronym: SOS

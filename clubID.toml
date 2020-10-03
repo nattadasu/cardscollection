@@ -8,6 +8,7 @@ Description = '''\
     [fivenuckle2]
     Name = 'fivenuckle2'
     Acronym = 'fntwo'
+    isClub = false
     Id = 151445
 
 [clubEvents]
