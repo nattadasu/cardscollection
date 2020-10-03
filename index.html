@@ -1,13 +1,14 @@
 <!DOCTYPE HTML>
 <html>
-    <head lang="en">
+    <head lang="en-US">
         <!--Page metadata-->
-        <title>Natsu's Card Collection</title>
+        <title class="translate" key="siteTitle">Natsu's Card Collection</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/w3/w3.css">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Exo+2">
+        <link rel="stylesheet" href="css/exo-2.css">
         <link rel="stylesheet" href="css/darkmode.css">
+        <link rel="stylesheet" href="css/jumpToTop.css">
 
         <!--Load Favicons-->
         <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
@@ -106,28 +107,35 @@
                 background-size: cover;               
             }
         </style>
+
+        <!--Load JQuery-->
+        <script src="script/jquery-3.5.1.min.js"></script>
     </head>
     <body class="w3-exo">
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
         <div class="w3-container w3-black">
-            <h1 class="w3-exo w3-container">Natsu's Card Collection</h1>
-            <p style="font-style: italic;" class=" w3-container w3-small">Because he's lazy to create another site and/or updating both on MAL and GitHub, so he decided to make one integrated site lmao.</p>
+            <h1 class="w3-exo w3-container translate" key="siteTitle">Natsu's Card Collection</h1>
+            <p style="font-style: italic;" class=" w3-container w3-small translate" key="subtitle">Because he's lazy to create another site and/or updating both on MAL and GitHub, so he decided to make one integrated site lmao.</p>
             <div class="w3-bar w3-black">
-                <span class="w3-bar-item w3-mobile w3-grey">Select Language</span>
-                <a href="#" class="w3-bar-item w3-button w3-mobile w3-hover-blue">English</a>
-                <a href="#" class="w3-bar-item w3-button w3-mobile w3-hover-red">Indonesian/Malay</a>
-                <a href="#" class="w3-bar-item w3-button w3-mobile w3-hover-white">Japanese</a>
-                <a href="#" class="w3-bar-item w3-button w3-mobile w3-hover-green">Arabic</a>
-                <a class="w3-bar-item w3-button w3-mobile w3-hover-white w3-right" onclick="myFunction()">Dark Mode (Experimental)</a>
+                <span class="w3-bar-item w3-mobile w3-grey translate" key="selector">Select Language</span>
+                <a id="en-US" class="w3-bar-item w3-button w3-mobile w3-hover-blue translate" key="english">English</a>
+                <a id="id-ID" class="w3-bar-item w3-button w3-mobile w3-hover-red translate" key="indonesian">Indonesian</a>
+                <a id="ms-ID" class="w3-bar-item w3-button w3-mobile w3-hover-yellow translate" key="malay">Malay</a>
+                <a id="ja-JP" class="w3-bar-item w3-button w3-mobile w3-hover-white translate" key="japanese">Japanese</a>
+                <a class="w3-bar-item w3-button w3-mobile w3-hover-white w3-right translate" onclick="myFunction()" key="darkMode">Dark Mode (Experimental)</a>
             </div>
         </div>
+
         <div class="w3-container">
-            <h2 class="w3-exo">Table of Content</h2>
+            <h2 class="w3-exo translate" key="toc">Table of Content</h2>
             <div class="w3-bar-block w3-card">
                 <a href="#theNewbieClub" class="w3-bar-item w3-button w3-hover-black w3-hover-text-red">The Newbie Club</a>
                 <a href="#justAnotherYaoiClub" class="w3-bar-item w3-button w3-hover-pale-red w3-hover-text-red">♦ Just Another Yaoi Club ♦</a>
+                <a href="#gardenOfEden" class="w3-bar-item w3-button w3-hover-cyan w3-hover-text-white">✿ garden of eden ✿</a>
             </div>
         </div>
         <br/>
+
         <div name="TNC">
             <div class="w3-container w3-parallaxHeader" style="background-image: url('bg/tnc/000000.png');">
                 <h2 class="w3-card-4 w3-container w3-exo w3-third w3-black w3-text-red" id="theNewbieClub"">The Newbie Club</h2>
@@ -320,13 +328,164 @@
         </div>
         <br/>
         <br/>
+
         <div name="JAYC">
             <div class="w3-container w3-parallaxHeader" style="background-image: url('bg/jayc/000000.jpg');">
                 <h2 class="w3-card-4 w3-container w3-exo w3-third w3-pale-red w3-text-red" id="justAnotherYaoiClub"">♦ Just Another Yaoi Club ♦</h2>
+            </div>
+            <div class="w3-container w3-parallaxHeader" style="background-image: url('bg/jayc/t1856947.jpg');">
+                <h3 class="w3-card-4 w3-container w3-exo w3-third w3-red w3-text-white">♦ Gakuen Heaven Edition ♦</h2>
+            </div>
+            <br/>
+            <div class="row">
+
+            </div>
+            <br/>
+            <div class="w3-container w3-parallaxHeader" style="background-image: url('bg/jayc/t1854769.jpg');">
+                <h3 class="w3-card-4 w3-container w3-exo w3-third w3-purple w3-text-white">♦ Supernatural Edition ♦</h2>
+            </div>
+            <br/>
+            <div class="row">
+
+            </div>
+            <br/>
+            <div class="w3-container w3-parallaxHeader" style="background-image: url('bg/jayc/t1853093.jpg');">
+                <h3 class="w3-card-4 w3-container w3-exo w3-third w3-text-red" style="background-color: #e7b6ba;">♦ Yondaime Ooyamato Tatsuyuki Edition ♦</h2>
+            </div>
+            <br/>
+            <div class="row">
+
+            </div>
+            <br/>
+            <div class="w3-container w3-parallaxHeader" style="background-image: url('bg/jayc/t1851246.jpg');">
+                <h3 class="w3-card-4 w3-container w3-exo w3-third w3-red w3-text-white">♦ Manga Chibi Series ♦</h2>
+            </div>
+            <br/>
+            <div class="row">
+
+            </div>
+            <br/>
+            <div class="w3-container w3-parallaxHeader" style="background-image: url('bg/jayc/t1850056.jpg');">
+                <h3 class="w3-card-4 w3-container w3-exo w3-third w3-text-white" style="background-color: #192e33;">♦ Beauty Mark Edition ♦</h2>
+            </div>
+            <br/>
+            <div class="row">
+
+            </div>
+            <br/>
+            <div class="w3-container w3-parallaxHeader" style="background-image: url('bg/jayc/t1844665.jpg');">
+                <h3 class="w3-card-4 w3-container w3-exo w3-third w3-pale-blue w3-text-blue">♦ Super Lovers Edition ♦</h2>
+            </div>
+            <br/>
+            <div class="row">
+                <div class="column-4">
+                    <!--BLANK-->
+                </div>
+                <div class="column-4">
+                    <img class="w3-card-2" style="width:100%" src="https://nattadasu-repo.imfast.io/assets/cards/jayc062020/RachelPanda-1.jpg">
+                </div>
+                <div class="column-4">
+                    <img class="w3-card-2" style="width:100%;" src="https://nattadasu-repo.imfast.io/assets/cards/jayc062020/RachelPanda-2.jpg">
+                </div>
+                <div class="column-4">
+                    <!--BLANK-->
+                </div>
+            </div>
+            <br/>
+            <div class="w3-container w3-parallaxHeader" style="background-image: url('bg/jayc/t1843702.jpg');">
+                <h3 class="w3-card-4 w3-container w3-exo w3-third w3-text-white" style="background-color: #be3a0a;">♦ Random Edition ♦</h2>
+            </div>
+            <br/>
+            <div class="row">
+                <div class="column-3">
+                    <img class="w3-card-2" style="width:100%" src="https://nattadasu-repo.imfast.io/assets/cards/jayc052020/linette.gif">
+                </div>
+                <div class="column-3">
+                    <img class="w3-card-2" style="width:100%" src="https://nattadasu-repo.imfast.io/assets/cards/jayc052020/RachelPanda-1.jpg">
+                </div>
+                <div class="column-3">
+                    <img class="w3-card-2" style="width:100%" src="https://nattadasu-repo.imfast.io/assets/cards/jayc052020/RachelPanda-2.jpg">
+                </div>
+            </div>
+            <br/>
+            <div class="w3-container w3-parallaxHeader" style="background-image: url('bg/jayc/t1831860.jpg');">
+                <h3 class="w3-card-4 w3-container w3-exo w3-third w3-brown w3-text-white">♦ Omairi desu yo Edition ♦</h2>
+            </div>
+            <br/>
+            <div class="row">
+                <div class="column-4">
+                    <!--BLANK-->
+                </div>
+                <div class="column-4">
+                    <img class="w3-card-2" style="width:100%" src="https://nattadasu-repo.imfast.io/assets/cards/jayc042020/k3ti.png">
+                </div>
+                <div class="column-4">
+                    <img class="w3-card-2" style="width:100%;" src="https://nattadasu-repo.imfast.io/assets/cards/jayc042020/RachelPanda.jpg">
+                </div>
+                <div class="column-4">
+                    <!--BLANK-->
+                </div>
+            </div>
+            <br/>
+            <div class="w3-container w3-parallaxHeader" style="background-image: url('bg/jayc/t1830559.jpg');">
+                <h3 class="w3-card-4 w3-container w3-exo w3-third w3-white w3-text-black">♦ Isaku Natsume Edition ♦</h2>
+            </div>
+            <br/>
+            <div class="row">
+                <div class="column-4">
+                    <img class="w3-card-2" style="width:100%" src="https://nattadasu-repo.imfast.io/assets/cards/jayc032020/k3ti.png">
+                </div>
+                <div class="column-4">
+                    <img class="w3-card-2" style="width:100%" src="https://nattadasu-repo.imfast.io/assets/cards/jayc032020/Rodicilous-1.png">
+                </div>
+                <div class="column-4">
+                    <img class="w3-card-2" style="width:100%" src="https://nattadasu-repo.imfast.io/assets/cards/jayc032020/Rodicilous-2.png">
+                </div>
+                <div class="column-4">
+                    <img class="w3-card-2" style="width:100%" src="https://nattadasu-repo.imfast.io/assets/cards/jayc032020/Rodicilous-3.png">
+                </div>
+            </div>
+            <br/>
+        </div>
+        <br/>
+        <br/>
+
+        <div name="GOE">
+            <div class="w3-container w3-parallaxHeader" style="background-image: url('bg/goe/000000.png');">
+                <h2 class="w3-card-4 w3-container w3-exo w3-third w3-cyan w3-text-white" id="gardenOfEden"">✿ garden of eden ✿</h2>
+            </div>
+            <div class="w3-container w3-parallaxHeader" style="background-image: url('bg/goe/t1854845.gif');">
+                <h3 class="w3-card-4 w3-container w3-exo w3-third w3-purple w3-text-white">princess connect re:dive edition</h2>
+            </div>
+            <br/>
+            <div class="row">
+                <div class="column-4">
+                    <!--BLANK-->
+                </div>
+                <div class="column-4">
+                    <img class="w3-card-2" style="width:100%" src="https://nattadasu-repo.imfast.io/assets/cards/goe072020/Reinasaurus-1.png">
+                </div>
+                <div class="column-4">
+                    <img class="w3-card-2" style="width:100%" src="https://nattadasu-repo.imfast.io/assets/cards/goe072020/Reinasaurus-2.png">
+                </div>
+                <div class="column-4">
+                    <!--BLANK-->
+                </div>
+            </div>
+            <br/>
+            <div class="w3-container w3-parallaxHeader" style="background-image: url('bg/goe/t1851257.gif');">
+                <h3 class="w3-card-4 w3-container w3-exo w3-third w3-text-white" style="background-color: #d4825c;">makeup birthdays edition</h2>
+            </div>
+            <br/>
+            <br/>
+            <div class="w3-container w3-parallaxHeader" style="background-image: url('bg/goe/t1822836.gif');">
+                <h3 class="w3-card-4 w3-container w3-exo w3-third w3-text-white" style="background-color:#b3001e;">lovelive all stars collection</h2>
             </div>
         </div>
 
         <!--Just leave it as it should be-->
         <script src="script/darkmode.js"></script>
+        <script src="script/loadLanguages.js"></script>
+        <script src="script/jumpToTop.js"></script>
     </body>
 </html>

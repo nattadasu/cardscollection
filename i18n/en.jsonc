@@ -1,0 +1,20 @@
+{
+    //Metadata
+    "siteTitle": "Natsu's Cards Collection",
+    "subtitle": "Because he's lazy to create another site and/or updating both on MAL and GitHub, so he decided to make one integrated site lmao.",
+    "selector": "Select Language",
+    "english": "English",
+    "indonesian": "Indonesian",
+    "malay": "Malay",
+    "japanese": "Japanese",
+    "darkMode": "Dark Mode (Experimental)",
+    "toc": "Table of Content",
+    "footerText": "",
+
+    //Club names
+    "tnc": "The Newbie Club",
+    "jayc": "♦ Just Another Yaoi Club ♦",
+    
+    //TNC edition names
+    "t1854809": "Favorite! Edition"
+}
