@@ -34,6 +34,14 @@
             }
 
             /* Create three equal columns that sits next to each other */
+            .column-2 {
+                -ms-flex: 50%; /* IE10 */
+                flex: 50%;
+                max-width: 50%;
+                padding: 0 4px;
+            }
+
+            /* Create three equal columns that sits next to each other */
             .column-3 {
                 -ms-flex: 33.33%; /* IE10 */
                 flex: 33.33%;
@@ -57,6 +65,12 @@
                 padding: 0 4px;
             }
 
+            .column-2 img {
+                margin-top: 8px;
+                vertical-align: middle;
+                width: 100%;
+            }
+
             .column-3 img {
                 margin-top: 8px;
                 vertical-align: middle;
@@ -78,7 +92,7 @@
 
             /* Responsive layout - makes a two column-layout instead of four columns */
             @media screen and (max-width: 800px) {
-                .column-3, .column-4, .column-5 {
+                .column-2, .column-3, .column-4, .column-5 {
                     -ms-flex: 50%;
                     flex: 50%;
                     max-width: 50%;
@@ -87,7 +101,7 @@
 
             /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
             @media screen and (max-width: 600px) {
-                .column-3, .column-4, .column-5 {
+                .column-2, .column-3, .column-4, .column-5 {
                     -ms-flex: 100%;
                     flex: 100%;
                     max-width: 100%;
@@ -107,6 +121,11 @@
                 background-repeat: no-repeat;
                 background-size: cover;               
             }
+            .w3-parallaxHeader {
+                -moz-box-shadow:    inset 0 0 17px #000000;
+                -webkit-box-shadow: inset 0 0 17px #000000;
+                box-shadow:         inset 0 0 17px #000000;
+            }
         </style>
 
         <!--Load JQuery-->
@@ -119,7 +138,7 @@
         <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
         <div class="w3-container w3-black">
             <h1 class="w3-exo w3-container translate" key="siteTitle">Natsu's Card Collection</h1>
-            <p style="font-style: italic;" class=" w3-container w3-small translate" key="subtitle">Because he's lazy to create another site and/or updating both on MAL and GitHub, so he decided to make one integrated site lmao.</p>
+            <p style="font-style: italic;" class=" w3-container w3-small translate" key="subtitle">Because he's lazy to create another site and/or updating both on MAL and GitHub, so he decided to make one integrated site lmao. Btw this site is optimized only for phone, desktop user would see the card blurred because automated resizing.</p>
             <div class="w3-bar w3-black">
                 <span class="w3-bar-item w3-mobile w3-grey translate" key="selector">Select Language</span>
                 <a id="en-US" class="w3-bar-item w3-button w3-mobile w3-hover-blue translate" key="english">English</a>
@@ -133,6 +152,7 @@
         <div class="w3-container">
             <h2 class="w3-exo translate" key="toc">Table of Content</h2>
             <div class="w3-bar-block w3-card">
+                <a href="#fntwo" class="w3-bar-item w3-button w3-hover-aqua w3-hover-text-black">fivenuckles2</a>
                 <a href="#cardDreamland" class="w3-bar-item w3-button w3-hover-teal w3-hover-text-white">Card Dreamland</a>
                 <a href="#raspberrySWonderlandExpress" class="w3-bar-item w3-button w3-hover-blue w3-hover-text-white">🍓Raspberry's Wonderland Express🍓</a>
                 <a href="#animangaCardEmpire" class="w3-bar-item w3-button w3-hover-cyan w3-hover-text-white">Animanga Card Empire (A.C.E) ✦</a>
@@ -148,11 +168,146 @@
         </div>
         <br/>
 
+        <div name="FN2">
+            <div class="w3-container w3-parallaxHeader" style="background-image: url('bg/fntwo/000000.gif');">
+                <h2 class="w3-card-4 w3-container w3-exo w3-half w3-aqua" id="fntwo">fivenuckles2</h2>
+            </div>
+            <div class="row">
+                <div class="column-5">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/004.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/005.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/006o.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/012o.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/016.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/019o.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/023.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/025_c3.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/025_c5.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/025_c6.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/025_cny1.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/025_d5.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/025_d9.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/025_g2.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/025_g3.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/025_ggtm3.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/025_h9.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/025_n1.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/025_n10.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/025_n4.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/025_n9.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/026.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/027a.png">
+                </div>
+                <div class="column-5">
+                    
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/028a.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/033.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/037a.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/037o.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/038o.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/041.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/042.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/051a.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/060.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/066.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/069.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/071.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/073.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/074a.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/076o.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/077g.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/078o.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/079g.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/079o.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/083g.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/091.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/094o.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/095.png">
+                </div>
+                <div class="column-5">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/099.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/101.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/102.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/103g.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/104.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/105o.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/109.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/112.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/113.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/117.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/118.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/121.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/125.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/127o.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/129.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/131o.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/133.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/135.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/138.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/139.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/140.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/142m.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/143g.png">
+                </div>
+                <div class="column-5">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/143o.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/145g.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/145o.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/147.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/149.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/152.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/153.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/155.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/157.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/158.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/164.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/165.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/169.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/170.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/171.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/172.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/173.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/175.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/177.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/179.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/181m.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/181o.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/183.png">
+                </div>
+                <div class="column-5">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/185.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/186.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/189.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/192.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/197.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/198.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/200.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/203.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/204.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/205.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/206.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/207.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/208o.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/214o.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/215.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/216.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/217.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/218.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/225.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/227.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/229o.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards/fntwo/232.png">    
+                </div>
+            </div>
+        </div>
+        <br/>
+        <br/>
+
         <div name="CDL">
             <div class="w3-container w3-parallaxHeader" style="background-image: url('bg/cdl/000000.png');">
                 <h2 class="w3-card-4 w3-container w3-exo w3-half w3-teal w3-text-white" id="cardDreamland">Card Dreamland</h2>
             </div>
-            <div class="w3-container w3-parallaxHeader">
+            <div class="w3-container">
                 <h3 class="w3-card-4 w3-container w3-exo w3-third w3-blue w3-text-white">Office Work Edition</h2>
             </div>
             <br/>
@@ -168,7 +323,7 @@
                 </div>
             </div>
             <br/>
-            <div class="w3-container w3-parallaxHeader">
+            <div class="w3-container">
                 <h3 class="w3-card-4 w3-container w3-exo w3-third w3-white w3-text-green">Summer Edition</h2>
             </div>
             <br/>
@@ -230,12 +385,48 @@
                 <h3 class="w3-card-4 w3-container w3-exo w3-third w3-text-white" style="background-color: #2f99b1;">My Hero Academia LE</h2>
             </div>
             <br/>
+            <div class="row">
+                <div class="column-5">
+                    <img src="cards/ace082020-a/SirJoker-1.png" class="w3-card-2" style="width: 100%;" />
+                </div>
+                <div class="column-5">
+                    <img src="cards/ace082020-a/SirJoker-2.png" class="w3-card-2" style="width: 100%;" />
+                </div>
+                <div class="column-5">
+                    <img src="cards/ace082020-a/ZoSanBamf-1.png" class="w3-card-2" style="width: 100%;" />
+                </div>
+                <div class="column-5">
+                    <img src="cards/ace082020-a/ZoSanBamf-2.png" class="w3-card-2" style="width: 100%;" />
+                </div>
+                <div class="column-5">
+                    <img src="cards/ace082020-a/ZoSanBamf-3.png" class="w3-card-2" style="width: 100%;" />
+                </div>
+            </div>
+            <br/>
             <div class="w3-container w3-parallaxHeader" style="background-image: url('bg/ace/t1854153.png');">
                 <h3 class="w3-card-4 w3-container w3-exo w3-third w3-purple w3-text-white">Magic SE</h2>
             </div>
             <br/>
+            <div class="row">
+                <div class="column-3">
+                    <img src="cards/ace072020-e/Aelyriel.png" class="w3-card-2" style="width: 100%;" />
+                </div>
+                <div class="column-3">
+                    <img src="cards/ace072020-e/ZoSanBamf-1.png" class="w3-card-2" style="width: 100%;" />
+                </div>
+                <div class="column-3">
+                    <img src="cards/ace072020-e/ZoSanBamf-2.png" class="w3-card-2" style="width: 100%;" />
+                </div>
+            </div>
+            <br/>
             <div class="w3-container w3-parallaxHeader" style="background-image: url('bg/ace/t1852857.gif');">
                 <h3 class="w3-card-4 w3-container w3-exo w3-third w3-blue-gray w3-text-white">Underwater SE</h2>
+            </div>
+            <br/>
+            <div class="row">
+                <div class="column-3"></div>
+                <div class="column-3"><img src="cards/ace072020-d/Aelyriel.png" title="ace072020-d/Aelyriel.png" alt="ace072020-d/Aelyriel.png" /></div>
+                <div class="column-3"></div>
             </div>
             <br/>
             <div class="w3-container w3-parallaxHeader" style="background-image: url('bg/ace/t1851795.png');">
@@ -246,26 +437,97 @@
                 <h3 class="w3-card-4 w3-container w3-exo w3-third w3-white w3-text-black">U-1146 Comeback Solo Edition</h2>
             </div>
             <br/>
+            <div class="row">
+                <div class="column-2">
+                    <img src="cards/ace072020-c/xCirce-1.png" class="w3-card-2" style="width: 100%;" />
+                </div>
+                <div class="column-2">
+                    <img src="cards/ace072020-c/xCirce-2.png" class="w3-card-2" style="width: 100%;" />
+                </div>
+            </div>
+            <br/>
             <div class="w3-container w3-parallaxHeader" style="background-image: url('bg/ace/t1851301.png');">
                 <h3 class="w3-card-4 w3-container w3-exo w3-third w3-black w3-text-red">Suits SE</h2>
+            </div>
+            <br/>
+            <div class="row">
+                <div class="column-3">
+                    <img src="cards/ace072020-b/Aelyriel.png" class="w3-card-2" style="width: 100%;" /> 
+                </div>
+                <div class="column-3">
+                    <img src="cards/ace072020-b/Chibi.png" class="w3-card-2" style="width: 100%;" />
+                </div>
+                <div class="column-3">
+                    <img src="cards/ace072020-b/SirJoker.png" class="w3-card-2" style="width: 100%;" />
+                </div> 
             </div>
             <br/>
             <div class="w3-container w3-parallaxHeader" style="background-image: url('bg/ace/t1850289.png');">
                 <h3 class="w3-card-4 w3-container w3-exo w3-third w3-orange w3-text-black">Celebrate! LE (600+ Members ~)</h2>
             </div>
             <br/>
+            <div class="row">
+                <div class="column-4">
+                    <img src="cards/ace072020-a/Aelyriel.png" class="w3-card-2" style="width: 100%;" />
+                </div>
+                <div class="column-4">
+                    <img src="cards/ace072020-a/LuffyTheStrawHat.png" class="w3-card-2" style="width: 100%;" />
+                </div>
+                <div class="column-4">
+                    <img src="cards/ace072020-a/ZoSanBamf-1.png" class="w3-card-2" style="width: 100%;" />
+                </div>
+                <div class="column-4">
+                    <img src="cards/ace072020-a/ZoSanBamf-2.png" class="w3-card-2" style="width: 100%;" />
+                </div>
+            </div>
+            <br/>
             <div class="w3-container w3-parallaxHeader" style="background-image: url('bg/ace/t1848917.png');">
                 <h3 class="w3-card-4 w3-container w3-exo w3-third w3-amber w3-text-dark-gray">Friendship SE</h2>
+            </div>
+            <br/>
+            <div class="row">
+                <div class="column-3">
+                    <img src="cards/ace062020-c/LuffyTheStrawHat-1.png" class="w3-card-2" style="width: 100%;" /> 
+                </div>
+                <div class="column-3">
+                    <img src="cards/ace062020-c/LuffyTheStrawHat-2.png" class="w3-card-2" style="width: 100%;" /> 
+                </div>
+                <div class="column-3">
+                    <img src="cards/ace062020-c/ZoSanBamf.png" class="w3-card-2" style="width: 100%;" />
+                </div>
             </div>
             <br/>
             <div class="w3-container w3-parallaxHeader" style="background-image: url('bg/ace/t1847485.png');">
                 <h3 class="w3-card-4 w3-container w3-exo w3-third w3-pink w3-text-white">Agathokakological SE</h2>
             </div>
             <br/>
+            <div class="row">
+                <div class="column-2">
+                    <img src="cards/ace062020-b/LuffyTheStrawHat-1.png" class="w3-card-2" style="width: 100%;" />
+                </div>
+                <div class="column-2">
+                    <img src="cards/ace062020-b/LuffyTheStrawHat-2.png" class="w3-card-2" style="width: 100%;" />
+                </div>
+            </div>
+            <br/>
             <div class="w3-container w3-parallaxHeader" style="background-image: url('bg/ace/t1846824.gif');">
                 <h3 class="w3-card-4 w3-container w3-exo w3-third w3-brown w3-text-white">Food SE</h2>
             </div>
             <br/>
+            <div class="row">
+                <div class="column-4">
+                    <img src="cards/ace062020-a/Aelyriel-1.png" class="w3-card-2" style="width: 100%;" />  
+                </div>
+                <div class="column-4">
+                    <img src="cards/ace062020-a/Aelyriel-2.png" class="w3-card-2" style="width: 100%;" />
+                </div>
+                <div class="column-4">
+                    <img src="cards/ace062020-a/RachelPanda.jpg" class="w3-card-2" style="width: 100%;" /> 
+                </div>
+                <div class="column-4">
+                    <img src="cards/ace062020-a/xiulaces.png" class="w3-card-2" style="width: 100%;" />
+                </div>
+            </div>
         </div>
         <br/>
         <br/>
@@ -278,6 +540,23 @@
                 <h3 class="w3-card-4 w3-container w3-exo w3-third w3-purple w3-text-white">H&E Member Cards - Rock 'n' Roll</h2>
             </div>
             <br/>
+            <div class="row">
+                <div class="column-5">
+                    <img src="cards/hne072020/celeste21.jpg" class="w3-card-2" style="width: 100%;" />
+                </div>
+                <div class="column-5">
+                    <img src="cards/hne072020/jyck.jpg" class="w3-card-2" style="width: 100%;" />
+                </div>
+                <div class="column-5">
+                    <img src="cards/hne072020/jyeshtha.jpg" class="w3-card-2" style="width: 100%;" />
+                </div>
+                <div class="column-5">
+                    <img src="cards/hne072020/kazami.jpg" class="w3-card-2" style="width: 100%;" />
+                </div>
+                <div class="column-5">
+                    <img src="cards/hne072020/skittles.png" class="w3-card-2" style="width: 100%;" />
+                </div>
+            </div>
         </div>
         <br/>
         <br/>
@@ -306,6 +585,13 @@
                 <h3 class="w3-card-4 w3-container w3-exo w3-third w3-pale-yellow w3-text-orange">Eeveelutions S.E</h2>
             </div>
             <br/>
+            <div class="row">
+                <div class="column-3"></div>
+                <div class="column-3">
+                    <img src="cards/lux072020-a/xHecate.png" class="w3-card-2" style="width:100%" />
+                </div>
+                <div class="column-3"></div>
+            </div>
         </div>
         <br/>
         <br/>
@@ -318,6 +604,30 @@
                 <h3 class="w3-card-4 w3-container w3-exo w3-third w3-red w3-text-white">🎴 Staff Birthdays: May Edition SE</h2>
             </div>
             <br/>
+            <div class="row">
+                <div class="column-4">
+                    <img src="cards/awc052020/AngelHana-1.png" class="w3-card-2" style="width: 100%;" />
+                    <img src="cards/awc052020/AngelHana-2.png" class="w3-card-2" style="width: 100%;" />
+                    <img src="cards/awc052020/AngelHana-3.png" class="w3-card-2" style="width: 100%;" />
+                    <img src="cards/awc052020/Rinarin-1.png" class="w3-card-2" style="width: 100%;" />
+                </div>
+                <div class="column-4">
+                    <img src="cards/awc052020/Rinarin-2.png" class="w3-card-2" style="width: 100%;" />
+                    <img src="cards/awc052020/Rinarin-3.png" class="w3-card-2" style="width: 100%;" />
+                    <img src="cards/awc052020/Sostter-1.jpg" class="w3-card-2" style="width: 100%;" />
+                    <img src="cards/awc052020/Sostter-2.jpg" class="w3-card-2" style="width: 100%;" />
+                </div>
+                <div class="column-4">
+                    <img src="cards/awc052020/Sostter-3.jpg" class="w3-card-2" style="width: 100%;" />
+                    <img src="cards/awc052020/Sostter-4.jpg" class="w3-card-2" style="width: 100%;" />
+                    <img src="cards/awc052020/tamochinnn-1.png" class="w3-card-2" style="width: 100%;" />
+                </div>
+                <div class="column-4">
+                    <img src="cards/awc052020/tamochinnn-2.png" class="w3-card-2" style="width: 100%;" />
+                    <img src="cards/awc052020/tamochinnn-3.png" class="w3-card-2" style="width: 100%;" />
+                    <img src="cards/awc052020/tamochinnn-4.png" class="w3-card-2" style="width: 100%;" />
+                </div>
+            </div>
         </div>
         <br/>
         <br/>
@@ -618,17 +928,11 @@
             </div>
             <br/>
             <div class="row">
-                <div class="column-4">
-                    <!--BLANK-->
-                </div>
-                <div class="column-4">
+                <div class="column-2">
                     <img class="w3-card-2" style="width:100%" src="cards/jayc062020/RachelPanda-1.jpg">
                 </div>
-                <div class="column-4">
+                <div class="column-2">
                     <img class="w3-card-2" style="width:100%;" src="cards/jayc062020/RachelPanda-2.jpg">
-                </div>
-                <div class="column-4">
-                    <!--BLANK-->
                 </div>
             </div>
             <br/>
@@ -653,17 +957,11 @@
             </div>
             <br/>
             <div class="row">
-                <div class="column-4">
-                    <!--BLANK-->
-                </div>
-                <div class="column-4">
+                <div class="column-2">
                     <img class="w3-card-2" style="width:100%" src="cards/jayc042020/k3ti.png">
                 </div>
-                <div class="column-4">
+                <div class="column-2">
                     <img class="w3-card-2" style="width:100%;" src="cards/jayc042020/RachelPanda.jpg">
-                </div>
-                <div class="column-4">
-                    <!--BLANK-->
                 </div>
             </div>
             <br/>
@@ -699,17 +997,11 @@
             </div>
             <br/>
             <div class="row">
-                <div class="column-4">
-                    <!--BLANK-->
-                </div>
-                <div class="column-4">
+                <div class="column-2">
                     <img class="w3-card-2" style="width:100%" src="cards/goe072020/Reinasaurus-1.png">
                 </div>
-                <div class="column-4">
+                <div class="column-2">
                     <img class="w3-card-2" style="width:100%" src="cards/goe072020/Reinasaurus-2.png">
-                </div>
-                <div class="column-4">
-                    <!--BLANK-->
                 </div>
             </div>
             <br/>
@@ -737,6 +1029,17 @@
                 <h3 class="w3-card-4 w3-container w3-exo w3-third" style="background-color: #efdcbc; color: #53291c;">Happy Birthday virusungen ~</h2>
             </div>
             <br/>
+            <div class="row">
+                <div class="column-3">
+
+                </div>
+                <div class="column-3">
+                    <img src="cards/coc042020/-Tony-.png" class="w3-card-2" style="width: 100%;" />
+                </div>
+                <div class="column-3">
+
+                </div>
+            </div>
         </div>
         <br/>
         <br/>
@@ -769,6 +1072,17 @@
                 <h3 class="w3-card-4 w3-container w3-exo w3-third w3-blue w3-text-white">- Azur Lane Edition -</h2>
             </div>
             <br/>
+            <div class="row">
+                <div class="column-3">
+                    <img src="cards/sos062020/chibister-1.png" class="w3-card-2" style="width: 100%;" />
+                </div>
+                <div class="column-3">
+                    <img src="cards/sos062020/chibister-2.png" class="w3-card-2" style="width: 100%;" />
+                </div>
+                <div class="column-3">
+                    <img src="cards/sos062020/Zarcy.png" class="w3-card-2" style="width: 100%;" />
+                </div>
+            </div>
         </div>
         <br/>
         <br/>
