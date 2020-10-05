@@ -1,0 +1,98 @@
+{
+    Description: '''
+        This is a metadata of clubs I've joined. Kinda useless 
+        because it wasn't automated nor the data itself 
+        fetched by the system lol.
+    '''
+
+    personalCreation: {
+        fivenuckle2: {
+            Name: fivenuckle2
+            Acronym: fntwo
+            isClub: false
+            Id: 151445
+        }
+
+        nattadasu: {
+            Name: nattadasu
+            Acronym: natsu
+            isClub: false
+            Id: 5253682
+        }
+    }
+
+    clubEvents: {
+        CardDreamland: {
+            Name: Card Dreamland
+            Acronym: CDL
+            Id: 28583
+        }
+
+        __U0001F353__Raspberry__TICK__sWonderlandExpress__U0001F353__: {
+            Name: "\U0001F353Raspberry's Wonderland Express\U0001F353"
+            Acronym: RWE
+            Id: 37011
+        }
+
+        AnimangaCardEmpire: {
+            Name: Animanga Card Empire (A.C.E) ✦
+            Acronym: ACE
+            Id: 38603
+        }
+
+        Harem__AMP__EcchiClub: {
+            Name: Harem&Ecchi Club
+            Acronym: HNE
+            Id: 63421
+        }
+
+        Luxuria: {
+            Name: Ｌｕｘｕｒｉａ
+            Acronym: LUX
+            Id: 68090
+        }
+
+        AnimeWatchingChallengeClub: {
+            Name: 'Anime Watching Challenges Club [AWCc]'
+            Acronym: AWCC
+            Id: 70446
+        }
+
+        TheNewbieClub: {
+            Name: The Newbie Club
+            Acronym: TNC
+            Id: 70668
+        }
+        
+        JustAnotherYaoiClub: {
+            Name: ♦ Just Another Yaoi Club ♦
+            Acronym: JAYC
+            Id: 74571
+        }
+
+        GardenOfEden: {
+            Name: ✿ garden of eden ✿
+            Acronym: GOE
+            Id: 75881
+        }
+
+        ClubOfCulture: {
+            Name: Club of Culture
+            Acronym: COC
+            Id: 77431
+        }
+
+        SoundOfSoul: {
+            Name: - Sound of Soul -
+            Acronym: SOS
+            Id: 78242
+        }
+
+        SilverStars: {
+            Name: ✩ silver stars ✩
+            Acronym: SSS
+            Id: 79697
+        }
+
+    }
+}

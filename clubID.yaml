@@ -11,6 +11,12 @@ personalCreation:
         Acronym: fntwo
         isClub: false
         Id: 151445
+        
+    - nattadasu :
+        Name: nattadasu
+        Acronym: natsu
+        isClub: false
+        Id: 5253682
 
 clubEvents:
     - CardDreamland:
@@ -67,4 +73,9 @@ clubEvents:
         Name: '- Sound of Soul -'
         Acronym: SOS
         Id: 78242
+
+    - SilverStars:
+        Name: '✩ silver stars ✩'
+        Acronym: SSS
+        Id: 79697
 ...
