@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="css/darkmode.css">
         <link rel="stylesheet" href="css/jumpToTop.css">
         <link rel="stylesheet" href="css/footer.css">
+        <link rel="stylesheet" href="css/style.css">
 
         <!--Load Favicons-->
         <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
@@ -17,117 +18,6 @@
         <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
         <link rel="manifest" href="assets/favicon/site.webmanifest">
         
-        <!--Load custom style-->
-        <style>
-            /* Text */
-            .w3-exo {
-                font-family: "Exo 2";
-            }
-
-            /* Grid */
-            .row {
-                display: -ms-flexbox; /* IE10 */
-                display: flex;
-                -ms-flex-wrap: wrap; /* IE10 */
-                flex-wrap: wrap;
-                padding: 0 4px;
-            }
-
-            /* Create three equal columns that sits next to each other */
-            .column-2 {
-                -ms-flex: 50%; /* IE10 */
-                flex: 50%;
-                max-width: 50%;
-                padding: 0 4px;
-            }
-
-            /* Create three equal columns that sits next to each other */
-            .column-3 {
-                -ms-flex: 33.33%; /* IE10 */
-                flex: 33.33%;
-                max-width: 33.33%;
-                padding: 0 4px;
-            }
-            
-            /* Create four equal columns that sits next to each other */
-            .column-4 {
-                -ms-flex: 25%; /* IE10 */
-                flex: 25%;
-                max-width: 25%;
-                padding: 0 4px;
-            }
-
-            /* Create five equal columns that sits next to each other */
-            .column-5 {
-                -ms-flex: 20%; /* IE10 */
-                flex: 20%;
-                max-width: 20%;
-                padding: 0 4px;
-            }
-
-            .column-2 img {
-                margin-top: 8px;
-                vertical-align: middle;
-                width: 100%;
-            }
-
-            .column-3 img {
-                margin-top: 8px;
-                vertical-align: middle;
-                width: 100%;
-            }
-
-            .column-4 img {
-                margin-top: 8px;
-                vertical-align: middle;
-                width: 100%;
-            }
-
-            .column-5 img {
-                margin-top: 8px;
-                vertical-align: middle;
-                width: 100%;
-            }
-
-
-            /* Responsive layout - makes a two column-layout instead of four columns */
-            @media screen and (max-width: 800px) {
-                .column-2, .column-3, .column-4, .column-5 {
-                    -ms-flex: 50%;
-                    flex: 50%;
-                    max-width: 50%;
-                }
-            }
-
-            /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-            @media screen and (max-width: 600px) {
-                .column-2, .column-3, .column-4, .column-5 {
-                    -ms-flex: 100%;
-                    flex: 100%;
-                    max-width: 100%;
-                }
-            }
-
-            /* Add parallax effect and gaussian blur */
-            .w3-parallaxHeader {
-                /* The image used */
-
-                /* Full height */
-                height: 100%; 
-
-                /* Create the parallax scrolling effect */
-                background-attachment: fixed;
-                background-position: center;
-                background-repeat: no-repeat;
-                background-size: cover;               
-            }
-            .w3-parallaxHeader {
-                -moz-box-shadow:    inset 0 0 17px #000000;
-                -webkit-box-shadow: inset 0 0 17px #000000;
-                box-shadow:         inset 0 0 17px #000000;
-            }
-        </style>
-
         <!--Load JQuery-->
         <script src="script/jquery-3.5.1.min.js"></script>
 
@@ -138,7 +28,7 @@
         <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
         <div class="w3-container w3-black">
             <h1 class="w3-exo w3-container translate" key="siteTitle">Natsu's Card Collection</h1>
-            <p style="font-style: italic;" class=" w3-container w3-small translate" key="subtitle">Because he's lazy to create another site and/or updating both on MAL and GitHub, so he decided to make one integrated site lmao. Btw this site is optimized only for phone, desktop user would see the card blurred because automated resizing.</p>
+            <p style="font-style: italic; text-align: justify;" class=" w3-container w3-small translate" key="subtitle">Because he's lazy to create another site and/or updating both on MAL and GitHub, so he decided to make one integrated site lmao.<br>Btw this site is optimized only for phone, desktop user would see the card blurred because automated resizing.</p>
             <div class="w3-bar w3-black">
                 <span class="w3-bar-item w3-mobile w3-grey translate" key="selector">Select Language</span>
                 <a id="en-US" class="w3-bar-item w3-button w3-mobile w3-hover-blue translate" key="english">English</a>
@@ -569,16 +459,42 @@
                 <h3 class="w3-card-4 w3-container w3-exo w3-third w3-purple w3-text-white">Utaite SE</h2>
             </div>
             <br/>
+            <div class="row">
+                <div class="column-3">
+                    <img class="w3-card-2" style="width: 100%;" src="cards\lux082020-a\xHecate.png">
+                </div>
+            </div>
+            <br/>
             <div class="w3-container w3-parallaxHeader" style="background-image: url('bg/lux/t1854387.gif');">
                 <h3 class="w3-card-4 w3-container w3-exo w3-third w3-blue-gray w3-text-white">League of Legends Edition</h2>
             </div>
+            <!--CURRENTLY UNUSED
+            <br/>
+            <div class="row">
+                <div class="column-3">
+                    
+                </div>
+            </div>
+            -->
             <br/>
             <div class="w3-container w3-parallaxHeader" style="background-image: url('bg/lux/t1853527.gif');">
                 <h3 class="w3-card-4 w3-container w3-exo w3-third w3-text-black" style="background-color: #d4c1ba;"">Owari No Seraph : Vampire Progenitors Edition</h2>
             </div>
             <br/>
+            <div class="row">
+                <div class="column-3"></div>
+                <div class="column-3"><img class="w3-card-2" style="width: 100%;" src="cards\lux072020-c\xHecate.png"></div>
+                <div class="column-3"></div>
+            </div>
+            <br/>
             <div class="w3-container w3-parallaxHeader" style="background-image: url('bg/lux/t1852613.gif');">
                 <h3 class="w3-card-4 w3-container w3-exo w3-third w3-pale-green w3-text-black">Flowers SE</h2>
+            </div>
+            <br/>
+            <div class="row">
+                <div class="column-3"></div>
+                <div class="column-3"><img class="w3-card-2" style="width: 100%;" src="cards\lux072020-b\xHecate.png"></div>
+                <div class="column-3"></div>
             </div>
             <br/>
             <div class="w3-container w3-parallaxHeader" style="background-image: url('bg/lux/t1851006.gif');">
@@ -605,25 +521,30 @@
             </div>
             <br/>
             <div class="row">
-                <div class="column-4">
+                <div class="column-5">
                     <img src="cards/awc052020/AngelHana-1.png" class="w3-card-2" style="width: 100%;" />
                     <img src="cards/awc052020/AngelHana-2.png" class="w3-card-2" style="width: 100%;" />
                     <img src="cards/awc052020/AngelHana-3.png" class="w3-card-2" style="width: 100%;" />
+                    <img class="w3-card-2" style="width: 100%;" src="cards\awc052020\Clover-1.png">
+                </div>
+                <div class="column-5">
+                    <img class="w3-card-2" style="width: 100%;" src="cards\awc052020\Clover-2.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards\awc052020\Clover-3.png">
                     <img src="cards/awc052020/Rinarin-1.png" class="w3-card-2" style="width: 100%;" />
                 </div>
-                <div class="column-4">
+                <div class="column-5">
                     <img src="cards/awc052020/Rinarin-2.png" class="w3-card-2" style="width: 100%;" />
                     <img src="cards/awc052020/Rinarin-3.png" class="w3-card-2" style="width: 100%;" />
                     <img src="cards/awc052020/Sostter-1.jpg" class="w3-card-2" style="width: 100%;" />
                     <img src="cards/awc052020/Sostter-2.jpg" class="w3-card-2" style="width: 100%;" />
-                </div>
-                <div class="column-4">
                     <img src="cards/awc052020/Sostter-3.jpg" class="w3-card-2" style="width: 100%;" />
+                </div>
+                <div class="column-5">
                     <img src="cards/awc052020/Sostter-4.jpg" class="w3-card-2" style="width: 100%;" />
                     <img src="cards/awc052020/tamochinnn-1.png" class="w3-card-2" style="width: 100%;" />
-                </div>
-                <div class="column-4">
                     <img src="cards/awc052020/tamochinnn-2.png" class="w3-card-2" style="width: 100%;" />
+                </div>
+                <div class="column-5">
                     <img src="cards/awc052020/tamochinnn-3.png" class="w3-card-2" style="width: 100%;" />
                     <img src="cards/awc052020/tamochinnn-4.png" class="w3-card-2" style="width: 100%;" />
                 </div>
@@ -677,7 +598,10 @@
             </div>
             <br/>
             <div class="row">
-                <div class="column-4">
+                <div class="column-3">
+                    <img class="w3-card-2" style="width: 100%;" src="cards\tnc082020-b\V1sion-1.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards\tnc082020-b\V1sion-2.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards\tnc082020-b\V1sion-3.png">
                 </div>
             </div>
             <br/>
@@ -687,6 +611,26 @@
             <br/>
             <div class="row">
                 <div class="column-4">
+                    <img class="w3-card-2" style="width: 100%;" src="cards\tnc082020-a\Annie_Law-1.jpg">
+                    <img class="w3-card-2" style="width: 100%;" src="cards\tnc082020-a\Annie_Law-2.jpg">
+                    <img class="w3-card-2" style="width: 100%;" src="cards\tnc082020-a\Naegi-1.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards\tnc082020-a\Naegi-2.png">
+                </div>
+                <div class="column-4">
+                    <img class="w3-card-2" style="width: 100%;" src="cards\tnc082020-a\Naegi-3.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards\tnc082020-a\Naegi-4.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards\tnc082020-a\TheMilkBoi-1.gif">
+                    <img class="w3-card-2" style="width: 100%;" src="cards\tnc082020-a\TheMilkBoi-2.gif">
+                </div>
+                <div class="column-4">
+                    <img class="w3-card-2" style="width: 100%;" src="cards\tnc082020-a\TheMilkBoi-3.gif">
+                    <img class="w3-card-2" style="width: 100%;" src="cards\tnc082020-a\TheMilkBoi-4.gif">
+                    <img class="w3-card-2" style="width: 100%;" src="cards\tnc082020-a\TheMilkBoi-5.gif">
+                </div>
+                <div class="column-4">
+                    <img class="w3-card-2" style="width: 100%;" src="cards\tnc082020-a\V1sion-1.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards\tnc082020-a\V1sion-2.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards\tnc082020-a\V1sion-3.png">
                 </div>
             </div>
             <br/>
@@ -888,7 +832,9 @@
             </div>
             <br/>
             <div class="row">
-
+                <div class="column-3"></div>
+                <div class="column-3"><img class="w3-card-2" style="width: 100%;" src="cards\jayc082020\linette.gif"></div>
+                <div class="column-3"></div>
             </div>
             <br/>
             <div class="w3-container w3-parallaxHeader" style="background-image: url('bg/jayc/t1854769.jpg');">
@@ -896,7 +842,8 @@
             </div>
             <br/>
             <div class="row">
-
+                <div class="column-2"><img class="w3-card-2" style="width: 100%;" src="cards\jayc072020-d\linette.png"></div>
+                <div class="column-2"><img class="w3-card-2" style="width: 100%;" src="cards\jayc072020-d\RachelPanda.jpg"></div>
             </div>
             <br/>
             <div class="w3-container w3-parallaxHeader" style="background-image: url('bg/jayc/t1853093.jpg');">
@@ -904,7 +851,9 @@
             </div>
             <br/>
             <div class="row">
-
+                <div class="column-3"></div>
+                <div class="column-3"><img class="w3-card-2" style="width: 100%;" src="cards\jayc072020-c\RachelPanda.jpg"></div>
+                <div class="column-3"></div>
             </div>
             <br/>
             <div class="w3-container w3-parallaxHeader" style="background-image: url('bg/jayc/t1851246.jpg');">
@@ -912,7 +861,9 @@
             </div>
             <br/>
             <div class="row">
-
+                <div class="column-3"></div>
+                <div class="column-3"><img class="w3-card-2" style="width: 100%;" src="cards\jayc072020-b\RachelPanda.jpg"></div>
+                <div class="column-3"></div>
             </div>
             <br/>
             <div class="w3-container w3-parallaxHeader" style="background-image: url('bg/jayc/t1850056.jpg');">
@@ -920,7 +871,8 @@
             </div>
             <br/>
             <div class="row">
-
+                <div class="column-2"><img class="w3-card-2" style="width: 100%;" src="cards\jayc072020-a\RachelPanda-1.jpg"></div>
+                <div class="column-2"><img class="w3-card-2" style="width: 100%;" src="cards\jayc072020-a\RachelPanda-2.jpg"></div>
             </div>
             <br/>
             <div class="w3-container w3-parallaxHeader" style="background-image: url('bg/jayc/t1844665.jpg');">
@@ -1101,5 +1053,21 @@
         <script src="script/darkmode.js"></script>
         <script src="script/loadLanguages.js"></script>
         <script src="script/jumpToTop.js"></script>
+
+        <!--#HJSON
+            {
+                residue: '''
+                    <img class="w3-card-2" style="width: 100%;" src="cards\SSS-1.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards\SSS-1-r.png">
+
+                    <img class="w3-card-2" style="width: 100%;" src="cards\memberCards\ace_ZoSanBamf.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards\memberCards\awc_Imyreld.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards\memberCards\awc_riho88riho.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards\memberCards\cdl_linette.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards\memberCards\lux_xHecate-1.png">
+                    <img class="w3-card-2" style="width: 100%;" src="cards\memberCards\lux_xHecate-2.png">
+                '''
+            }
+        -->
     </body>
 </html>
