@@ -1,0 +1,974 @@
+{
+    "$schema": "./editionDetail.schema.json",
+    "28583": [
+        {
+            "edition": "Summer Edition",
+            "threadId": 1852181,
+            "path": "cdl072020-b",
+            "publishedDate": "2020-07-15T21:42+07:00",
+            "staff": {
+                "onDuty": [
+                    "linette"
+                ],
+                "bonus": false
+            },
+            "status": "REC"
+        },
+        {
+            "edition": "Office Work Edition",
+            "threadId": 1859089,
+            "path": "cdl082020",
+            "publishedDate": "2020-08-16T05:17+07:00",
+            "staff": {
+                "onDuty": [
+                    "linette"
+                ],
+                "bonus": false
+            },
+            "status": "REC"
+        }
+    ],
+    "37011": [
+        {
+            "edition": "☆Thighs LE☆",
+            "threadId": 1857277,
+            "path": "rwe082020",
+            "publishedDate": "2020-08-07T06:46+07:00",
+            "staff": {
+                "bonus": false,
+                "onDuty": [
+                    "SweetKiichigo"
+                ]
+            },
+            "status": "REC"
+        }
+    ],
+    "38603": [
+        {
+            "edition": "Food SE",
+            "threadId": 1846824,
+            "path": "ace062020-a",
+            "publishedDate": "2020-06-16T22:01+07:00",
+            "staff": {
+                "onDuty": [
+                    "RachelPanda",
+                    "Aelyriel",
+                    "Charlotte",
+                    "xiulaces"
+                ]
+            },
+            "status": "ONG",
+            "remainingStaff": [
+                "Charlotte"
+            ]
+        },
+        {
+            "edition": "Agathokakological SE",
+            "threadId": 1847485,
+            "path": "ace062020-b",
+            "publishedDate": "2020-06-20T09:47+07:00",
+            "staff": {
+                "onDuty": [
+                    "LuffyTheStrawHat"
+                ],
+                "bonus": false
+            },
+            "status": "REC"
+        },
+        {
+            "edition": "Friendship SE",
+            "threadId": 1848917,
+            "path": "ace062020-c",
+            "publishedDate": "2020-06-28T10:00+07:00",
+            "staff": {
+                "onDuty": [
+                    "LuffyTheStrawHat",
+                    "Charlotte",
+                    "ZoSanBamf",
+                    "MissLovegood",
+                    "SirJoker"
+                ],
+                "bonus": true
+            },
+            "status": "ONG",
+            "remainingStaff": [
+                "Charlotte",
+                "MissLovegood",
+                "SirJoker"
+            ]
+        },
+        {
+            "edition": "Celebrate! LE (600+ Members ~)",
+            "threadId": 1850289,
+            "path": "ace072020-a",
+            "publishedDate": "2020-07-05T23:10+07:00",
+            "staff": {
+                "onDuty": [
+                    "LuffyTheStrawHat",
+                    "ZoSanBamf",
+                    "Aelyriel"
+                ],
+                "bonus": false
+            },
+            "status": "REC"
+        },
+        {
+            "edition": "Suits SE",
+            "threadId": 1851301,
+            "path": "ace072020-b",
+            "publishedDate": "2020-07-11T06:13+07:00",
+            "staff": {
+                "onDuty": [
+                    "Aelyriel",
+                    "LuffyTheStrawHat",
+                    "SirJoker",
+                    "Charlotte",
+                    "Chibi" 
+                ],
+                "bonus": false
+            },
+            "status": "ONG",
+            "remainingStaff": [
+                "LuffyTheStrawHat",
+                "Charlotte"
+            ]
+        },
+        {
+            "edition": "U-1146 Comeback Solo Edition",
+            "threadId": 1851350,
+            "publishedDate": "2020-07-11T16:23+07:00",
+            "path": "ace072020-c",
+            "staff": {
+                "onDuty": [
+                    "xCirce"
+                ],
+                "bonus": false
+            },
+            "status": "REC"
+        },
+        {
+            "edition": "Mystic Messenger SE",
+            "threadId": 1851795,
+            "publishedDate": "2020-07-13T19:20+07:00",
+            "path": "ace072020-d",
+            "staff": {
+                "onDuty": [
+                    "ZoSanBamf"
+                ],
+                "bonus": false
+            },
+            "status": "TBD"
+        },
+        {
+            "edition": "Underwater SE",
+            "threadId": 1852857,
+            "publishedDate": "2020-07-19T03:44+07:00",
+            "path": "ace072020-e",
+            "staff": {
+                "onDuty": [
+                    "Aelyriel"
+                ],
+                "bonus": false
+            },
+            "status": "REC"
+        },
+        {
+            "edition": "Magic SE",
+            "threadId": 1854153,
+            "publishedDate": "2020-07-24T18:24+07:00",
+            "path": "ace072020-f",
+            "staff": {
+                "onDuty": [
+                    "LuffyTheStrawHat",
+                    "Charlotte",
+                    "ZoSanBamf",
+                    "Aelyriel"
+                ],
+                "bonus": true
+            },
+            "status": "ONG",
+            "remainingStaff": [
+                "LuffyTheStrawHat",
+                "Charlotte"
+            ]
+        },
+        {
+            "edition": "My Hero Academia LE",
+            "threadId": 1855972,
+            "publishedDate": "2020-08-01T17:03+07:00",
+            "path": "ace082020-a",
+            "staff": {
+                "onDuty": [
+                    "SirJoker",
+                    "ZoSanBamf",
+                    "RachelPanda",
+                    "Charlotte"
+                ],
+                "bonus": true
+            },
+            "status": "ONG",
+            "remainingStaff": [
+                "Charlotte"
+            ]
+        },
+        {
+            "edition": "Captivating Artstlye Edition ❀",
+            "threadId": 1856032,
+            "publishedDate": "2020-08-01T21:01+07:00",
+            "path": "ace082020-b",
+            "staff": {
+                "onDuty": [
+                    "ZoSanBamf"
+                ],
+                "bonus": false
+            },
+            "status": "TBD"
+        },
+        {
+            "edition": "Mitate Kurea Solo Edition",
+            "threadId": 1856703,
+            "publishedDate": "2020-08-04T21:34+07:00",
+            "path": "ace082020-c",
+            "staff": {
+                "onDuty": [
+                    "xCirce"
+                ],
+                "bonus": false
+            },
+            "status": "REC"
+        },
+        {
+            "edition": "Blonde SE",
+            "threadId": 1856991,
+            "publishedDate": "2020-08-06T06:05+07:00",
+            "path": "ace082020-d",
+            "staff": {
+                "onDuty": [
+                    "LuffyTheStrawHat",
+                    "Charlotte"
+                ],
+                "bonus": false
+            },
+            "status": "TBD"
+        },
+        {
+            "edition": "Fairy Tail SE",
+            "threadId": 1862126,
+            "publishedDate": "2020-09-01T11:02+07:00",
+            "path": "ace092020-a",
+            "staff": {
+                "onDuty": [
+                    "LuffyTheStrawHat",
+                    "Charlotte",
+                    "Chibi",
+                    "Akariiii"
+                ],
+                "bonus": true
+            },
+            "status": "TBD"
+        },
+        {
+            "edition": "Sports Anime SE",
+            "threadId": 1862127,
+            "publishedDate": "2020-09-01T11:07+07:00",
+            "path": "ace092020-b",
+            "staff": {
+                "onDuty": [
+                    "RachelPanda",
+                    "Akariiii",
+                    "Aelyriel",
+                    "LuffyTheStrawHat"
+                ],
+                "bonus": false
+            },
+            "status": "TBD"
+        },
+        {
+            "edition": "Couples SE",
+            "threadId": 1864505,
+            "publishedDate": "2020-09-15T00:04+07:00",
+            "path": "ace092020-c",
+            "staff": {
+                "onDuty": [
+                    "Akariiii",
+                    "RachelPanda"
+                ],
+                "bonus": false
+            },
+            "status": "TBD"
+        },
+        {
+            "edition": "Red Hair SE",
+            "threadId": 1866814,
+            "publishedDate": "2020-09-27T06:17+07:00",
+            "path": "ace092020-d",
+            "staff": {
+                "onDuty": [
+                    "Charlotte",
+                    "LuffyTheStrawHat"
+                ],
+                "bonus": false
+            },
+            "status": "TBD"
+        }
+    ],
+    "63421": [
+        {
+            "edition": "H&E Member Cards - Rock 'n' Roll",
+            "threadId": 1854170,
+            "publishedDate": "2020-07-24T21:23+07:00",
+            "path": "hne072020",
+            "staff": {
+                "onDuty": [
+                    "celeste21",
+                    "jyck",
+                    "jyeshtha",
+                    "skittles",
+                    "kazami"
+                ],
+                "bonus": false
+            },
+            "status": "REC"
+        }
+    ],
+    "68090": [
+        {
+            "edition": "Eeveelutions S.E",
+            "threadId": 1851006,
+            "publishedDate": "2020-07-09T19:51+07:00",
+            "path": "lux072020-a",
+            "staff": {
+                "onDuty": [
+                    "xHecate",
+                    "zarchy"
+                ],
+                "bonus": false
+            },
+            "status": "ONG",
+            "remainingStaff": [
+                "zarchy"
+            ]
+        },
+        {
+            "edition": "Flowers SE",
+            "threadId": 1852613,
+            "publishedDate": "2020-07-17T23:30+07:00",
+            "path": "lux072020-b",
+            "staff": {
+                "onDuty": [
+                    "xHecate"
+                ],
+                "bonus": false
+            },
+            "status": "REC"
+        },
+        {
+            "edition": "Owari No Seraph : Vampire Progenitors Edition",
+            "threadId": 1853527,
+            "publishedDate": "2020-07-22T01:36+07:00",
+            "path": "lux072020-c",
+            "staff": {
+                "onDuty": [
+                    "zarchy",
+                    "xHecate"
+                ],
+                "bonus": false
+            },
+            "status": "ONG"
+        },
+        {
+            "edition": "League of Legends Edition",
+            "threadId": 1854387,
+            "publishedDate": "2020-07-25T22:44+07:00",
+            "path": "lux072020-d",
+            "staff": {
+                "onDuty": [
+                    "zarchy"
+                ],
+                "bonus": false
+            },
+            "status": "TBD"
+        },
+        {
+            "edition": "Utaite SE",
+            "threadId": 1856751,
+            "publishedDate": "2020-08-05T02:12+07:00",
+            "path": "lux082020-a",
+            "staff": {
+                "onDuty": [
+                    "xHecate"
+                ],
+                "bonus": false
+            },
+            "status": "REC"
+        }
+    ],
+    "70446": [
+        {
+            "edition": "🎴 Staff Birthdays: May Edition SE",
+            "threadId": 1837840,
+            "publishedDate": "2020-05-01T11:09+07:00",
+            "path": "awc052020",
+            "staff": {
+                "onDuty": [
+                    "AngelHana",
+                    "Clover",
+                    "Rinarin",
+                    "Sostter",
+                    "tamochinnn"
+                ]
+            },
+            "status": "REC"
+        }
+    ],
+    "70668": [
+        {
+            "edition": "Spring Edition",
+            "threadId": 1830956,
+            "publishedDate": "2020-03-26T09:42+07:00",
+            "path": "tnc032020",
+            "staff": {
+                "onDuty": [
+                    "Forbidden",
+                    "Kymikx",
+                    "Naegi",
+                    "nattadasu",
+                    "V1sion"
+                ],
+                "bonus": false
+            },
+            "status": "REC"
+        },
+        {
+            "edition": "Mystery Edition",
+            "threadId": 1835337,
+            "publishedDate": "2020-04-18T02:43+07:00",
+            "path": "tnc042020",
+            "staff": {
+                "onDuty": [
+                    "Chibi",
+                    "Kymikx",
+                    "nattadasu",
+                    "V1sion"
+                ],
+                "bonus": false
+            },
+            "status": "REC"
+        },
+        {
+            "edition": "10K Edition",
+            "threadId": 1842352,
+            "publishedDate": "2020-05-24T06:28+07:00",
+            "path": "tnc052020",
+            "staff": {
+                "onDuty": [
+                    "Chibi",
+                    "Naegi",
+                    "nattadasu",
+                    "V1sion"
+                ],
+                "bonus": true
+            },
+            "status": "REC"
+        },
+        {
+            "edition": "Red Edition",
+            "threadId": 1846557,
+            "publishedDate": "2020-06-15T10:38+07:00",
+            "path": "tnc062020-a",
+            "staff": {
+                "onDuty": [
+                    "Annie_Law",
+                    "Chibi",
+                    "lEpikSl",
+                    "V1sion"
+                ],
+                "bonus": false
+            },
+            "status": "REC"
+        },
+        {
+            "edition": "Pride Edition",
+            "threadId": 1846561,
+            "publishedDate": "2020-06-15T10:43+07:00",
+            "path": "tnc062020-b",
+            "staff": {
+                "onDuty": [
+                    "Evans",
+                    "nattadasu",
+                    "Booksy",
+                    "V1sion"
+                ],
+                "bonus": true
+            },
+            "status": "REC"
+        },
+        {
+            "edition": "Quarantine Edition",
+            "threadId": 1850550,
+            "publishedDate": "2020-07-07T04:05+07:00",
+            "path": "tnc072020-a",
+            "staff": {
+                "onDuty": [
+                    "lEpikSl",
+                    "Naegi",
+                    "nattadasu",
+                    "V1sion"
+                ],
+                "bonus": true
+            },
+            "status": "REC"
+        },
+        {
+            "edition": "Haikyuu! Edition",
+            "threadId": 1852179,
+            "publishedDate": "2020-07-15T21:27+07:00",
+            "path": "tnc072020-b",
+            "staff": {
+                "onDuty": [
+                    "lEpikSl",
+                    "Kymikx",
+                    "Evans"
+                ],
+                "bonus": false
+            },
+            "status": "ONG",
+            "remainingStaff": [
+                "Evans"
+            ]
+        },
+        {
+            "edition": "Favorite Edition",
+            "threadId": 1854809,
+            "publishedDate": "2020-07-27T17:12+07:00",
+            "path": "tnc072020-c",
+            "staff": {
+                "onDuty": [
+                    "Annie_Law",
+                    "Naegi",
+                    "nattadasu",
+                    "V1sion"
+                ],
+                "bonus": false
+            },
+            "status": "REC"
+        },
+        {
+            "edition": "Music Edition",
+            "threadId": 1858050,
+            "publishedDate": "2020-08-10T22:54+07:00",
+            "path": "tnc082020-a",
+            "staff": {
+                "onDuty": [
+                    "Annie_Law",
+                    "Naegi",
+                    "nattadasu",
+                    "TheMilkBoi",
+                    "V1sion"
+                ],
+                "bonus": true
+            },
+            "status": "ONG",
+            "remainingStaff": [
+                "nattadasu"
+            ]
+        },
+        {
+            "edition": "Festival Edition",
+            "threadId": 1859433,
+            "publishedDate": "2020-08-18T01:01+07:00",
+            "path": "tnc082020-b",
+            "staff": {
+                "onDuty": [
+                    "TheMilkBoi",
+                    "V1sion"
+                ],
+                "bonus": false
+            },
+            "status": "ONG",
+            "remainingStaff": [
+                "TheMilkBoi"
+            ]
+        },
+        {
+            "edition": "12K Edition",
+            "threadId": 1860753,
+            "publishedDate": "2020-08-25T00:14+07:00",
+            "path": "tnc082020-c",
+            "staff": {
+                "onDuty": [
+                    "Booksy",
+                    "Annie_Law",
+                    "nattadasu",
+                    "Naegi"
+                ],
+                "bonus": false
+            },
+            "status": "TBD"
+        },
+        {
+            "edition": "School Edition",
+            "threadId": 1862911,
+            "publishedDate": "2020-09-10T22:02+07:00",
+            "path": "tnc092020-a",
+            "staff": {
+                "onDuty": [
+                    "nattadasu",
+                    "TheMilkBoi",
+                    "V1sion",
+                    "EvaNetor-Chan"
+                ],
+                "bonus": false
+            },
+            "status": "TBD"
+        },
+        {
+            "edition": "Slice of Life Edition",
+            "threadId": 1865484,
+            "publishedDate": "2020-09-20T06:02+07:00",
+            "path": "tnc092020-b",
+            "staff": {
+                "onDuty": [
+                    "nattadasu",
+                    "V1sion",
+                    "Naegi",
+                    "Annie_Law",
+                    "EvaNetor-Chan"
+                ],
+                "bonus": false
+            },
+            "status": "TBD"
+        },
+        {
+            "edition": "Studio Ghibli Edition",
+            "threadId": 1867957,
+            "publishedDate": "2020-10-03T18:21+07:00",
+            "path": "tnc102020-a",
+            "staff": {
+                "onDuty": [
+                    "MelissaWolf",
+                    "Kairito_",
+                    "EvaNetor-Chan"
+                ],
+                "bonus": false
+            },
+            "status": "TBD"
+        }
+    ],
+    "74571": [
+        {
+            "edition": "♦ Isaku Natsume Edition ♦",
+            "threadId": 1830559,
+            "publishedDate": "2020-03-24T00:02+07:00",
+            "path": "jayc032020-a",
+            "staff": {
+                "onDuty": [
+                    "Rodicilous",
+                    "k3ti"
+                ],
+                "bonus": false
+            },
+            "status": "REC"
+        },
+        {
+            "edition": "♦ Omairi desu yo Edition ♦",
+            "threadId": 1831860,
+            "publishedDate": "2020-03-30T08:47+07:00",
+            "path": "jayc032020-b",
+            "staff": {
+                "onDuty": [
+                    "k3ti",
+                    "RachelPanda"
+                ],
+                "bonus": false
+            },
+            "status": "REC"
+        },
+        {
+            "edition": "♦ Random Edition ♦",
+            "threadId": 1843702,
+            "publishedDate": "2020-05-31T22:38+07:00",
+            "path": "jayc052020",
+            "staff": {
+                "onDuty": [
+                    "RachelPanda",
+                    "linette"
+                ],
+                "bonus": false
+            },
+            "status": "REC"
+        },
+        {
+            "edition": "♦ Super Lovers Edition ♦",
+            "threadId": 1844665,
+            "publishedDate": "2020-06-05T22:30+07:00",
+            "path": "jayc062020-a",
+            "staff": {
+                "onDuty": [
+                    "RachelPanda"
+                ],
+                "bonus": true
+            },
+            "status": "REC"
+        },
+        {
+            "edition": "♦ June Staff Birthday Edition ♦",
+            "threadId": 1849544,
+            "publishedDate": "2020-07-02T00:50+07:00",
+            "path": "jayc072020-a",
+            "staff": {
+                "onDuty": [
+                    "RachelPanda",
+                    "tamochinnn"
+                ],
+                "bonus": false
+            },
+            "status": "ONG",
+            "remainingStaff": [
+                "RachelPanda"
+            ]
+        },
+        {
+            "edition": "♦ Beauty Mark Edition ♦",
+            "threadId": 1850056,
+            "publishedDate": "2020-07-04T10:38+07:00",
+            "path": "jayc072020-b",
+            "staff": {
+                "onDuty": [
+                    "RachelPanda"
+                ],
+                "bonus": false
+            },
+            "status": "REC"
+        },
+        {
+            "edition": "♦ Manga Chibi Series ♦",
+            "threadId": 1851246,
+            "publishedDate": "2020-07-11T00:34+07:00",
+            "path": "jayc072020-c",
+            "staff": {
+                "onDuty": [
+                    "RachelPanda"
+                ],
+                "bonus": false
+            },
+            "status": "REC"
+        },
+        {
+            "edition": "♦ Yondaime Ooyamoto Tatsuki Edition ♦",
+            "threadId": 1853093,
+            "publishedDate": "2020-07-20T09:52+07:00",
+            "path": "jayc072020-d",
+            "staff": {
+                "onDuty": [
+                    "RachelPanda",
+                    "k3ti"
+                ],
+                "bonus": false
+            },
+            "status": "ONG",
+            "remainingStaff": [
+                "k3ti"
+            ]
+        },
+        {
+            "edition": "♦ Gakuen Heaven Edition ♦",
+            "threadId": 1856947,
+            "publishedDate": "2020-08-05T23:16+07:00",
+            "path": "jayc082020-a",
+            "staff": {
+                "onDuty": [
+                    "RachelPanda"
+                ],
+                "bonus": false
+            },
+            "status": "TBD"
+        },
+        {
+            "edition": "♦ School Uniform Edition ♦",
+            "threadId": 1860743,
+            "publishedDate": "2020-08-24T22:44+07:00",
+            "path": "jayc082020-b",
+            "staff": {
+                "onDuty": [
+                    "RachelPanda",
+                    "linette"
+                ],
+                "bonus": false
+            },
+            "status": "ONG",
+            "remainingStaff": [
+                "RachelPanda"
+            ]
+        }
+    ],
+    "75881": [
+        {
+            "edition": "lovelive all stars collection",
+            "threadId": 1822836,
+            "publishedDate": "2020-01-31T20:37+07:00",
+            "path": "goe012020",
+            "staff": {
+                "onDuty": [
+                    "saelogy"
+                ],
+                "bonus": false
+            },
+            "status": "TBD"
+        },
+        {
+            "edition": "makeup birthday edition",
+            "threadId": 1851257,
+            "publishedDate": "2020-07-11T00:55+07:00",
+            "path": "goe072020-a",
+            "staff": {
+                "onDuty": [
+                    "Nanagisa"
+                ],
+                "bonus": false
+            },
+            "status": "TBD"
+        },
+        {
+            "edition": "princess connect re:dive edition",
+            "threadId": 1854845,
+            "publishedDate": "2020-07-27T20:40+07:00",
+            "path": "goe072020-b",
+            "staff": {
+                "onDuty": [
+                    "Reinasaurus"
+                ],
+                "bonus": false
+            },
+            "status": "REC"
+        }
+    ],
+    "77431": [
+        {
+            "edition": "Happy Birthday virusungen",
+            "threadId": 1836268,
+            "publishedDate": "2020-04-22T22:09+07:00",
+            "path": "coc042020-a",
+            "staff": {
+                "onDuty": [
+                    "-Tony-",
+                    "fantomshuriken"
+                ],
+                "bonus": false
+            },
+            "status": "ONG",
+            "remainingStaff": [
+                "fantomshuriken"
+            ]
+        },
+        {
+            "edition": "Villains Edition ~",
+            "threadId": 1836442,
+            "publishedDate": "2020-04-23T20:38+07:00",
+            "path": "coc042020-b",
+            "staff": {
+                "onDuty": [
+                    "fantomshuriken",
+                    "CECB"
+                ],
+                "bonus": false
+            },
+            "status": "CAN",
+            "remainingStaff": [
+                "fantomshuriken",
+                "CECB"
+            ]
+        }
+    ],
+    "78242": [
+        {
+            "edition": "- Azur Lane Edition -",
+            "threadId": 1849244,
+            "publishedDate": "2020-06-30T02:19+07:00",
+            "path": "sos062020",
+            "staff": {
+                "onDuty": [
+                    "Chibi",
+                    "zarchy",
+                    "k3ti"
+                ],
+                "bonus": false
+            },
+            "status": "ONG",
+            "remainingStaff": [
+                "zarchy",
+                "k3ti"
+            ]
+        },
+        {
+            "edition": "- Gothic Edition -",
+            "threadId": 1850471,
+            "publishedDate": "2020-07-06T19:51+07:00",
+            "path": "sos072020-b",
+            "staff": {
+                "onDuty": [
+                    "Charlotte"
+                ],
+                "bonus": false
+            },
+            "status": "TBD"
+        },
+        {
+            "edition": "- Mermaid Edition -",
+            "threadId": 1851398,
+            "publishedDate": "2020-07-12T01:06+07:00",
+            "path": "sos072020-b",
+            "staff": {
+                "onDuty": [
+                    "k3ti",
+                    "Charlotte"
+                ],
+                "bonus": false
+            },
+            "status": "TBD"
+        },
+        {
+            "edition": "- Dorohedoro Edition -",
+            "threadId": 1852688,
+            "publishedDate": "2020-07-18T04:27+07:00",
+            "path": "sos072020-c",
+            "staff": {
+                "onDuty": [
+                    "tamochinnn"
+                ],
+                "bonus": false
+            },
+            "status": "REC"
+        },
+        {
+            "edition": "- Crop Top Edition -",
+            "threadId": 1854149,
+            "publishedDate": "2020-07-24T18:04+07:00",
+            "path": "sos072020-d",
+            "staff": {
+                "onDuty": [
+                    "Chibi",
+                    "Charlotte",
+                    "k3ti"
+                ],
+                "bonus": false
+            },
+            "status": "TBD"
+        },
+        {
+            "edition": "- No Game No Life Edition -",
+            "threadId": 1855363,
+            "publishedDate": "2020-07-29T22:05+07:00",
+            "path": "sos072020-e",
+            "staff": {
+                "onDuty": [
+                    "Stardew",
+                    "k3ti",
+                    "zarchy"
+                ],
+                "bonus": false
+            },
+            "status": "TBD"
+        }
+    ]
+}
