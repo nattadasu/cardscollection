@@ -1,7 +1,7 @@
 {
     //Metadata
     "siteTitle": "Natsu's Cards Collection",
-    "subtitle": "Because he's lazy to create another site and/or updating both on MAL and GitHub, so he decided to make one integrated site lmao.",
+    "subtitle": "Because he's lazy to create another site and/or updating both on MAL and GitHub, so he decided to make one integrated site lmao.\nBtw this site is optimized only for phone, desktop user would see the card blurred because automated resizing.",
     "selector": "Select Language",
     "english": "English",
     "indonesian": "Indonesian",
@@ -9,12 +9,8 @@
     "japanese": "Japanese",
     "darkMode": "Dark Mode (Experimental)",
     "toc": "Table of Content",
-    "footerText": "",
-
-    //Club names
-    "tnc": "The Newbie Club",
-    "jayc": "♦ Just Another Yaoi Club ♦",
-    
-    //TNC edition names
-    "t1854809": "Favorite! Edition"
+    "footerText": "This site is powered by GitHub, W3.CSS, jQuery, Font Awesome, and Favicons.io.",
+    "madeIn": "Made in Indonesia with ❤.",
+    "authorName": "Natsu Tadama",
+    "github": "GitHub"
 }
