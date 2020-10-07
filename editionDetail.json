@@ -979,7 +979,10 @@
                 ],
                 "bonus": false
             },
-            "status": "TBD"
+            "status": "CAN",
+            "remainingStaff": [
+                "Charlotte"
+            ]
         },
         {
             "edition": "- Mermaid Edition -",
