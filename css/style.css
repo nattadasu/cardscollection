@@ -116,7 +116,9 @@
   height: 100%;
 
   /* Create the parallax scrolling effect */
+  /* KNOWN FOR HAVING ISSUE ON iOS DEVICES
   background-attachment: fixed;
+  */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
