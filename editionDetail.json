@@ -129,7 +129,6 @@
             },
             "status": "ONG",
             "remainingStaff": [
-                "LuffyTheStrawHat",
                 "Charlotte"
             ]
         },
@@ -188,7 +187,6 @@
             },
             "status": "ONG",
             "remainingStaff": [
-                "LuffyTheStrawHat",
                 "Charlotte"
             ]
         },
@@ -222,7 +220,7 @@
                 ],
                 "bonus": false
             },
-            "status": "TBD"
+            "status": "REC"
         },
         {
             "edition": "Mitate Kurea Solo Edition",
@@ -249,7 +247,28 @@
                 ],
                 "bonus": false
             },
-            "status": "TBD"
+            "status": "ONG",
+            "remainingStaff": [
+                "Charlotte"
+            ]
+        },
+        {
+            "edition": "HAPPY BIRTHDAY ACE! CE",
+            "threadId": 1858517,
+            "publishedDate": "2020-08-13T06:25+07:00",
+            "path": "ace082020-e",
+            "staff": {
+                "onDuty": [
+                    "ZoSanBamf",
+                    "LuffyTheStrawHat",
+                    "MissLovegood"
+                ],
+                "bonus": false
+            },
+            "status": "ONG",
+            "remainingStaff": [
+                "MissLovegood"
+            ]
         },
         {
             "edition": "Fairy Tail SE",
@@ -261,11 +280,15 @@
                     "LuffyTheStrawHat",
                     "Charlotte",
                     "Chibi",
-                    "Akariiii"
+                    "Akariiii",
+                    "ReinIsAWeeb"
                 ],
                 "bonus": true
             },
-            "status": "TBD"
+            "status": "ONG",
+            "remainingStaff": [
+                "Charlotte"
+            ]
         },
         {
             "edition": "Sports Anime SE",
@@ -277,11 +300,15 @@
                     "RachelPanda",
                     "Akariiii",
                     "Aelyriel",
-                    "LuffyTheStrawHat"
+                    "LuffyTheStrawHat",
+                    "ZoSanBamf"
                 ],
                 "bonus": false
             },
-            "status": "TBD"
+            "status": "ONG",
+            "remainingStaff": [
+                "Aelyriel"
+            ]
         },
         {
             "edition": "Couples SE",
@@ -295,7 +322,10 @@
                 ],
                 "bonus": false
             },
-            "status": "TBD"
+            "status": "ONG",
+            "remainingStaff": [
+                "RachelPanda"
+            ]
         },
         {
             "edition": "Red Hair SE",
@@ -374,7 +404,10 @@
                 ],
                 "bonus": false
             },
-            "status": "ONG"
+            "status": "ONG",
+            "remainingStaff": [
+                "zarchy"
+            ]
         },
         {
             "edition": "League of Legends Edition",
@@ -401,6 +434,25 @@
                 "bonus": false
             },
             "status": "REC"
+        },
+        {
+            "edition": "Esdeath Edition",
+            "threadId": 1863299,
+            "publishedDate": "2020-09-08T00:19+07:00",
+            "path": "lux092020-a",
+            "staff": {
+                "onDuty": [
+                    "xHecate",
+                    "zarchy",
+                    "katastrofikal"
+                ],
+                "bonus": false
+            },
+            "status": "ONG",
+            "remainingStaff": [
+                "xHecate",
+                "zarchy"
+            ]
         }
     ],
     "70446": [
@@ -568,10 +620,7 @@
                 ],
                 "bonus": true
             },
-            "status": "ONG",
-            "remainingStaff": [
-                "nattadasu"
-            ]
+            "status": "REC"
         },
         {
             "edition": "Festival Edition",
@@ -585,10 +634,7 @@
                 ],
                 "bonus": false
             },
-            "status": "ONG",
-            "remainingStaff": [
-                "TheMilkBoi"
-            ]
+            "status": "REC"
         },
         {
             "edition": "12K Edition",
@@ -604,7 +650,7 @@
                 ],
                 "bonus": false
             },
-            "status": "TBD"
+            "status": "REC"
         },
         {
             "edition": "School Edition",
@@ -620,7 +666,7 @@
                 ],
                 "bonus": false
             },
-            "status": "TBD"
+            "status": "REC"
         },
         {
             "edition": "Slice of Life Edition",
@@ -637,7 +683,7 @@
                 ],
                 "bonus": false
             },
-            "status": "TBD"
+            "status": "REC"
         },
         {
             "edition": "Studio Ghibli Edition",
@@ -712,6 +758,23 @@
             "status": "REC"
         },
         {
+            "edition": "♦ Omegaverse Edition ♦",
+            "threadId": 1848675,
+            "publishedDate": "2020-06-27T01:19+07:00",
+            "path": "jayc062020-b",
+            "staff": {
+                "onDuty": [
+                    "RachelPanda",
+                    "linette"
+                ],
+                "bonus": false
+            },
+            "status": "CAN",
+            "remainingStaff": [
+                "linette"
+            ]
+        },
+        {
             "edition": "♦ June Staff Birthday Edition ♦",
             "threadId": 1849544,
             "publishedDate": "2020-07-02T00:50+07:00",
@@ -723,10 +786,7 @@
                 ],
                 "bonus": false
             },
-            "status": "ONG",
-            "remainingStaff": [
-                "RachelPanda"
-            ]
+            "status": "REC"
         },
         {
             "edition": "♦ Beauty Mark Edition ♦",
@@ -766,10 +826,21 @@
                 ],
                 "bonus": false
             },
-            "status": "ONG",
-            "remainingStaff": [
-                "k3ti"
-            ]
+            "status": "REC"
+        },
+        {
+            "edition": "♦ Supernatural Edition ♦",
+            "threadId": 1854769,
+            "publishedDate": "2020-07-27T12:14+07:00",
+            "path": "jayc072020-e",
+            "staff": {
+                "onDuty": [
+                    "linette",
+                    "RachelPanda"
+                ],
+                "bonus": false
+            },
+            "status": "REC"
         },
         {
             "edition": "♦ Gakuen Heaven Edition ♦",
@@ -782,7 +853,7 @@
                 ],
                 "bonus": false
             },
-            "status": "TBD"
+            "status": "REC"
         },
         {
             "edition": "♦ School Uniform Edition ♦",
@@ -796,10 +867,7 @@
                 ],
                 "bonus": false
             },
-            "status": "ONG",
-            "remainingStaff": [
-                "RachelPanda"
-            ]
+            "status": "REC"
         }
     ],
     "75881": [
@@ -925,7 +993,10 @@
                 ],
                 "bonus": false
             },
-            "status": "TBD"
+            "status": "ONG",
+            "remainingStaff": [
+                "Charlotte"
+            ]
         },
         {
             "edition": "- Dorohedoro Edition -",
@@ -953,7 +1024,11 @@
                 ],
                 "bonus": false
             },
-            "status": "TBD"
+            "status": "CAN",
+            "remainingStaff": [
+                "Chibi",
+                "Charlotte"
+            ]
         },
         {
             "edition": "- No Game No Life Edition -",
@@ -968,7 +1043,35 @@
                 ],
                 "bonus": false
             },
-            "status": "TBD"
+            "status": "REC"
+        },
+        {
+            "edition": "- Watermelon Edition -",
+            "threadId": 1862165,
+            "publishedDate": "2020-09-01T18:29+07:00",
+            "path": "sos092020-a",
+            "staff": {
+                "onDuty": [
+                    "k3ti"
+                ],
+                "bonus": false
+            },
+            "status": "REC"
+        },
+        {
+            "edition": "- Oregairu Edition -",
+            "threadId": 1862927,
+            "publishedDate": "2020-09-06T01:58+07:00",
+            "path": "sos092020-b",
+            "staff": {
+                "onDuty": [
+                    "Stardew",
+                    "Chibi",
+                    "DarkNighte"
+                ],
+                "bonus": false
+            },
+            "status": "REC"
         }
     ]
 }
