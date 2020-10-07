@@ -1,0 +1,119 @@
+{
+	// Place your Cards workspace snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// Placeholders with the same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"scope": "javascript,typescript",
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+	"Row-Column 2": {
+		"scope": "html",
+		"prefix": "rowcolumn-2",
+		"body": [
+			"<div class=\"row\">",
+			"    <div class=\"column-2\"><img src=\"cards/$0\" class=\"w3-card-2\" style=\"width: 100%;\" /></div>",
+			"    <div class=\"column-2\"><img src=\"cards/\" class=\"w3-card-2\" style=\"width: 100%;\" /></div>",
+			"</div>",
+			"<br/>"
+		]
+	},
+	"Row-Column 3": {
+		"scope": "html",
+		"prefix": "rowcolumn-3",
+		"body": [
+			"<div class=\"row\">",
+			"    <div class=\"column-3\"><img src=\"cards/$0\" class=\"w3-card-2\" style=\"width: 100%;\" /></div>",
+			"    <div class=\"column-3\"><img src=\"cards/\" class=\"w3-card-2\" style=\"width: 100%;\" /></div>",
+			"    <div class=\"column-3\"><img src=\"cards/\" class=\"w3-card-2\" style=\"width: 100%;\" /></div>",
+			"</div>",
+			"<br/>"
+		]
+	},
+	"Row-Column 4": {
+		"scope": "html",
+		"prefix": "rowcolumn-4",
+		"body": [
+			"<div class=\"row\">",
+			"    <div class=\"column-4\"><img src=\"cards/$0\" class=\"w3-card-2\" style=\"width: 100%;\" /></div>",
+			"    <div class=\"column-4\"><img src=\"cards/\" class=\"w3-card-2\" style=\"width: 100%;\" /></div>",
+			"    <div class=\"column-4\"><img src=\"cards/\" class=\"w3-card-2\" style=\"width: 100%;\" /></div>",
+			"    <div class=\"column-4\"><img src=\"cards/\" class=\"w3-card-2\" style=\"width: 100%;\" /></div>",
+			"</div>",
+			"<br/>"
+		]
+	},
+	"Row-Column 5": {
+		"scope": "html",
+		"prefix": "rowcolumn-5",
+		"body": [
+			"<div class=\"row\">",
+			"    <div class=\"column-5\"><img src=\"cards/$0\" class=\"w3-card-2\" style=\"width: 100%;\" /></div>",
+			"    <div class=\"column-5\"><img src=\"cards/\" class=\"w3-card-2\" style=\"width: 100%;\" /></div>",
+			"    <div class=\"column-5\"><img src=\"cards/\" class=\"w3-card-2\" style=\"width: 100%;\" /></div>",
+			"    <div class=\"column-5\"><img src=\"cards/\" class=\"w3-card-2\" style=\"width: 100%;\" /></div>",
+			"    <div class=\"column-5\"><img src=\"cards/\" class=\"w3-card-2\" style=\"width: 100%;\" /></div>",
+			"</div>",
+			"<br/>"
+		]
+	},
+	"Edition Header": {
+		"scope": "html",
+		"prefix": "edhead",
+		"body": [
+			"<div class=\"w3-container w3-parallaxHeader\" style=\"background-image: url('bg/xxx/xxx000000');\">",
+			"    <h3 class=\"w3-card-4 w3-container w3-exo w3-third w3-black w3-text-white\">$0</h3>",
+			"</div>",
+			"<br/>"
+		]
+	},
+	"Column 2": {
+		"scope": "html",
+		"prefix": "column2",
+		"body": [
+			"<div class=\"column-2\">",
+			"    <img src=\"cards/$0\" class=\"w3-card-2\" style=\"width: 100%;\" />",
+			"</div>"
+		]
+	},
+	"Column 3": {
+		"scope": "html",
+		"prefix": "column3",
+		"body": [
+			"<div class=\"column-3\">",
+			"    <img src=\"cards/$0\" class=\"w3-card-2\" style=\"width: 100%;\" />",
+			"</div>"
+		]
+	},
+	"Column 4": {
+		"scope": "html",
+		"prefix": "column4",
+		"body": [
+			"<div class=\"column-4\">",
+			"    <img src=\"cards/$0\" class=\"w3-card-2\" style=\"width: 100%;\" />",
+			"</div>"
+		]
+	},
+	"Column 5": {
+		"scope": "html",
+		"prefix": "column5",
+		"body": [
+			"<div class=\"column-5\">",
+			"    <img src=\"cards/$0\" class=\"w3-card-2\" style=\"width: 100%;\" />",
+			"</div>"
+		]
+	},
+	"Cards": {
+		"scope": "html",
+		"prefix": "cardImg",
+		"body": "<img src=\"cards/$0\" class=\"w3-card-2\" style=\"width: 100%;\" />"
+	}
+}

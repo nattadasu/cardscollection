@@ -1073,5 +1073,33 @@
             },
             "status": "REC"
         }
+    ],
+    "79697": [
+        {
+            "edition": "𝚔𝚞𝚛𝚘𝚝𝚜𝚞𝚗𝚘 𝚎𝚍𝚒𝚝𝚒𝚘𝚗",
+            "threadId": 1867855,
+            "publishedDate": "2020-10-03T02:08+07:00",
+            "path": "sss102020-a",
+            "staff": {
+                "onDuty": [
+                    "Myunin"
+                ],
+                "bonus": false
+            },
+            "status": "REC"
+        },
+        {
+            "edition": "𝚊𝚛𝚝 𝚎𝚍𝚒𝚝𝚒𝚘𝚗",
+            "threadId": 1867892,
+            "publishedDate": "2020-10-03T07:30+07:00",
+            "path": "sss102020-b",
+            "staff": {
+                "onDuty": [
+                    "Araberu"
+                ],
+                "bonus": false
+            },
+            "status": "REC"
+        }
     ]
 }
