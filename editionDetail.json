@@ -4,11 +4,24 @@
         {
             "edition": "Summer Edition",
             "threadId": 1852181,
-            "path": "cdl072020-b",
+            "path": "cdl072020-a",
             "publishedDate": "2020-07-15T21:42+07:00",
             "staff": {
                 "onDuty": [
                     "linette"
+                ],
+                "bonus": false
+            },
+            "status": "REC"
+        },
+        {
+            "edition": "Demon Love Edition",
+            "threadId": 1852494,
+            "path": "cdl072020-b",
+            "publishedDate": "2020-07-17T08:54+07:00",
+            "staff": {
+                "onDuty": [
+                    "RachelPanda"
                 ],
                 "bonus": false
             },
@@ -26,6 +39,58 @@
                 "bonus": false
             },
             "status": "REC"
+        },
+        {
+            "edition": "Box Edition",
+            "threadId": 1862239,
+            "path": "cdl092020-a",
+            "publishedDate": "2020-09-02T03:35+07:00",
+            "staff": {
+                "onDuty": [
+                    "linette"
+                ],
+                "bonus": false
+            },
+            "status": "REC"
+        },
+        {
+            "edition": "Hair Series -- Antigravity Edition",
+            "threadId": 1858456,
+            "path": "cdl092020-b",
+            "publishedDate": "2020-09-18T03:27+07:00",
+            "staff": {
+                "onDuty": [
+                    "RachelPanda"
+                ],
+                "bonus": false
+            },
+            "status": "REC"
+        },
+        {
+            "edition": "Halloween Edition",
+            "threadId": 1870204,
+            "path": "cdl102020-a",
+            "publishedDate": "2020-10-16T02:09+07:00",
+            "staff": {
+                "onDuty": [
+                    "linette"
+                ],
+                "bonus": false
+            },
+            "status": "TBD"
+        },
+        {
+            "edition": "Hair Series -- Antenna Edition",
+            "threadId": 1858456,
+            "path": "cdl102020-b",
+            "publishedDate": "2020-10-14T02:53+07:00",
+            "staff": {
+                "onDuty": [
+                    "RachelPanda"
+                ],
+                "bonus": false
+            },
+            "status": "TBD"
         }
     ],
     "37011": [
@@ -340,6 +405,46 @@
                 "bonus": false
             },
             "status": "TBD"
+        },
+        {
+            "edition": "Psycho Pass LE",
+            "threadId": 1867673,
+            "publishedDate": "2020-10-02T04:29+07:00",
+            "path": "ace102020-a",
+            "staff": {
+                "onDuty": [
+                    "RachelPanda",
+                    "ZoSanBamf",
+                    "Charlotte",
+                    "Chibi"
+                ],
+                "bonus": false
+            },
+            "status": "ONG",
+            "remainingStaff": [
+                "RachelPanda",
+                "Charlotte",
+                "Chibi"
+            ]
+        },
+        {
+            "edition": "ReinIsAWeeb Birthday LE",
+            "threadId": 1870604,
+            "publishedDate": "2020-10-18T09:29+07:00",
+            "path": "ace102020-b",
+            "staff": {
+                "onDuty": [
+                    "RachelPanda",
+                    "ZoSanBamf",
+                    "Akariiii"
+                ],
+                "bonus": false
+            },
+            "status": "ONG",
+            "remainingStaff": [
+                "RachelPanda",
+                "Akariiii"
+            ]
         }
     ],
     "63421": [
@@ -698,7 +803,10 @@
                 ],
                 "bonus": false
             },
-            "status": "TBD"
+            "status": "ONG",
+            "remainingStaff": [
+                "Kairito_"
+            ]
         }
     ],
     "74571": [
@@ -868,6 +976,26 @@
                 "bonus": false
             },
             "status": "REC"
+        },
+        {
+            "edition": " ♦ JAYC 3 year Anniversary Edition ♦",
+            "threadId": 1867488,
+            "publishedDate": "2020-10-01T04:13+07:00",
+            "path": "jayc102020-a",
+            "staff": {
+                "onDuty": [
+                    "RachelPanda",
+                    "linette",
+                    "k3ti",
+                    "MelissaWolf"
+                ],
+                "bonus": false
+            },
+            "status": "ONG",
+            "remainingStaff": [
+                "RachelPanda",
+                "k3ti"
+            ]
         }
     ],
     "75881": [
@@ -1075,6 +1203,40 @@
                 "bonus": false
             },
             "status": "REC"
+        },
+        {
+            "edition": "- Re:ZERO Edition -",
+            "threadId": 1868670,
+            "publishedDate": "2020-10-07T16:17+07:00",
+            "path": "sos102020-a",
+            "staff": {
+                "onDuty": [
+                    "mutsukii",
+                    "DarkNighte"
+                ],
+                "bonus": false
+            },
+            "status": "ONG",
+            "remainingStaff": [
+                "DarkNighte"
+            ]
+        },
+        {
+            "edition": "- Jersey Edition -",
+            "threadId": 1870295,
+            "publishedDate": "2020-10-16T16:43+07:00",
+            "path": "sos102020-b",
+            "staff": {
+                "onDuty": [
+                    "dandeliya",
+                    "Araberu"
+                ],
+                "bonus": false
+            },
+            "status": "ONG",
+            "remainingStaff": [
+                "dandeliya"
+            ]
         }
     ],
     "79697": [
@@ -1099,6 +1261,39 @@
             "staff": {
                 "onDuty": [
                     "Araberu"
+                ],
+                "bonus": false
+            },
+            "status": "REC"
+        },
+        {
+            "edition": "𝚓𝚒𝚋𝚊𝚔𝚞 𝚜𝚑𝚘𝚗𝚎𝚗 𝚑𝚊𝚗𝚊𝚔𝚘 𝚔𝚞𝚗 𝚎𝚍𝚒𝚝𝚒𝚘𝚗",
+            "threadId": 1870566,
+            "publishedDate": "2020-10-18T01:28+07:00",
+            "path": "sss102020-c",
+            "staff": {
+                "onDuty": [
+                    "Araberu",
+                    "Myunin",
+                    "MelissaWolf",
+                    "EvaNetor-Chan"
+                ],
+                "bonus": true
+            },
+            "status": "ONG",
+            "remainingStaff": [
+                "MelissaWolf",
+                "EvaNetor-Chan"
+            ]
+        },
+        {
+            "edition": "𝙵𝚛𝚎𝚎 𝙴𝚍𝚒𝚝𝚒𝚘𝚗",
+            "threadId": 1870795,
+            "publishedDate": "2020-07-07T07:07+07:00",
+            "path": "sss102020-d",
+            "staff": {
+                "onDuty": [
+                    "Kempiniukas_Esu"
                 ],
                 "bonus": false
             },
